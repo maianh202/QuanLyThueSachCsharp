@@ -1,0 +1,112 @@
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNhanvien.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmHDThuesach.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FRmBaocaotop5doanhthu.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmKhachHang.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTacgia.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTraSach.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNXB.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmTimKiemNhanVien.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmDSchuatra.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmSachTruyen.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.ResolveComReference.cache
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.ResolveComReference.cache
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FRmBaocaotop5doanhthu.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmKhachHang.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTraSach.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNXB.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmTimKiemNhanVien.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTacgia.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmSachTruyen.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmHDThuesach.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNhanvien.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmtimkiemsachtruyen.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmBaocaosach.resources
+D:\WinForm Projects Nhom 1\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FormDoanhthu.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.SuggestedBindingRedirects.cache
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.ResolveComReference.cache
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmBaocaotop5doanhthu.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTraSach.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmKhachHang.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNXB.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmTimKiemNhanVien.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmtimkiemsachtruyen.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTacgia.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmBaocaosach.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmSachTruyen.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FormDoanhthu.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmHDThuesach.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNhanvien.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+C:\Quan_ly_thue_sach\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmBaocaotop5doanhthu.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTraSach.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmKhachHang.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNXB.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmTimKiemNhanVien.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmtimkiemsachtruyen.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FrmTacgia.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.Tuan.frmBaocaosach.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmSachTruyen.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.FormDoanhthu.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmHDThuesach.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNhanvien.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+C:\Users\admin\Desktop\Slidemonhoc\CSLT2\BTLbandu\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb

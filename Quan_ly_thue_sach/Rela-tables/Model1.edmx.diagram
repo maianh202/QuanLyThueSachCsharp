@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66d63266b3094ccaae290adc9f2f02ef" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblCalam" Width="1.5" PointX="16.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblCTHDThue" Width="1.5" PointX="7.125" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblCTHDTra" Width="1.5" PointX="9.125" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblHDThue" Width="1.5" PointX="11.875" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblHDTra" Width="1.5" PointX="12.625" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblKhach" Width="1.5" PointX="15.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblLinhvuc" Width="1.5" PointX="1" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblLoaisach" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblNV" Width="1.5" PointX="15" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblNXB" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblNgonngu" Width="1.5" PointX="1" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblSach" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblTacgia" Width="1.5" PointX="0.875" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblTinhtrang" Width="1.5" PointX="5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThueSachModel.tblVipham" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblNV__Maca__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDTh__Masac__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDTh__Mathu__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDThu__MaTT__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDTr__Masac__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDTr__Matra__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblCTHDTra__MaVP__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblHDThue__Makha__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblHDThue__MaNV__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblHDTra__Mathue__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblHDTra__MaNV__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblSach__Malinhv__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblSach__Maloai__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblSach__MaNXB__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblSach__Mangonn__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThueSachModel.FK__tblSach__Matacgi__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

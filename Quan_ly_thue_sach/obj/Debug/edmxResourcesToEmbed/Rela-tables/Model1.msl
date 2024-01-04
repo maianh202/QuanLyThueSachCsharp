@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QL_ThueSachModelStoreContainer" CdmEntityContainer="QL_ThueSachEntities">
+    <EntitySetMapping Name="tblCalam">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblCalam">
+        <MappingFragment StoreEntitySet="tblCalam">
+          <ScalarProperty Name="Maca" ColumnName="Maca" />
+          <ScalarProperty Name="Tenca" ColumnName="Tenca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCTHDThue">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblCTHDThue">
+        <MappingFragment StoreEntitySet="tblCTHDThue">
+          <ScalarProperty Name="Mathue" ColumnName="Mathue" />
+          <ScalarProperty Name="Masach" ColumnName="Masach" />
+          <ScalarProperty Name="MaTT" ColumnName="MaTT" />
+          <ScalarProperty Name="Datra" ColumnName="Datra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCTHDTra">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblCTHDTra">
+        <MappingFragment StoreEntitySet="tblCTHDTra">
+          <ScalarProperty Name="Matra" ColumnName="Matra" />
+          <ScalarProperty Name="Masach" ColumnName="Masach" />
+          <ScalarProperty Name="MaVP" ColumnName="MaVP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHDThue">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblHDThue">
+        <MappingFragment StoreEntitySet="tblHDThue">
+          <ScalarProperty Name="Mathue" ColumnName="Mathue" />
+          <ScalarProperty Name="Makhach" ColumnName="Makhach" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Ngaythue" ColumnName="Ngaythue" />
+          <ScalarProperty Name="Tiendatcoc" ColumnName="Tiendatcoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblHDTra">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblHDTra">
+        <MappingFragment StoreEntitySet="tblHDTra">
+          <ScalarProperty Name="Matra" ColumnName="Matra" />
+          <ScalarProperty Name="Mathue" ColumnName="Mathue" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Ngaytra" ColumnName="Ngaytra" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblKhach">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblKhach">
+        <MappingFragment StoreEntitySet="tblKhach">
+          <ScalarProperty Name="Makhach" ColumnName="Makhach" />
+          <ScalarProperty Name="Tenkhach" ColumnName="Tenkhach" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLinhvuc">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblLinhvuc">
+        <MappingFragment StoreEntitySet="tblLinhvuc">
+          <ScalarProperty Name="Malinhvuc" ColumnName="Malinhvuc" />
+          <ScalarProperty Name="Tenlinhvuc" ColumnName="Tenlinhvuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLoaisach">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblLoaisach">
+        <MappingFragment StoreEntitySet="tblLoaisach">
+          <ScalarProperty Name="Maloai" ColumnName="Maloai" />
+          <ScalarProperty Name="Tenloai" ColumnName="Tenloai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNV">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblNV">
+        <MappingFragment StoreEntitySet="tblNV">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="Maca" ColumnName="Maca" />
+          <ScalarProperty Name="Namsinh" ColumnName="Namsinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNXB">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblNXB">
+        <MappingFragment StoreEntitySet="tblNXB">
+          <ScalarProperty Name="MaNXB" ColumnName="MaNXB" />
+          <ScalarProperty Name="TenNXB" ColumnName="TenNXB" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNgonngu">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblNgonngu">
+        <MappingFragment StoreEntitySet="tblNgonngu">
+          <ScalarProperty Name="Mangonngu" ColumnName="Mangonngu" />
+          <ScalarProperty Name="Tenngonngu" ColumnName="Tenngonngu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSach">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblSach">
+        <MappingFragment StoreEntitySet="tblSach">
+          <ScalarProperty Name="Masach" ColumnName="Masach" />
+          <ScalarProperty Name="Tensach" ColumnName="Tensach" />
+          <ScalarProperty Name="Maloai" ColumnName="Maloai" />
+          <ScalarProperty Name="Malinhvuc" ColumnName="Malinhvuc" />
+          <ScalarProperty Name="Matacgia" ColumnName="Matacgia" />
+          <ScalarProperty Name="MaNXB" ColumnName="MaNXB" />
+          <ScalarProperty Name="Mangonngu" ColumnName="Mangonngu" />
+          <ScalarProperty Name="Sotrang" ColumnName="Sotrang" />
+          <ScalarProperty Name="Giasach" ColumnName="Giasach" />
+          <ScalarProperty Name="Dongiathue" ColumnName="Dongiathue" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTacgia">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblTacgia">
+        <MappingFragment StoreEntitySet="tblTacgia">
+          <ScalarProperty Name="Matacgia" ColumnName="Matacgia" />
+          <ScalarProperty Name="Tentacgia" ColumnName="Tentacgia" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTinhtrang">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblTinhtrang">
+        <MappingFragment StoreEntitySet="tblTinhtrang">
+          <ScalarProperty Name="MaTT" ColumnName="MaTT" />
+          <ScalarProperty Name="TenTT" ColumnName="TenTT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVipham">
+      <EntityTypeMapping TypeName="QL_ThueSachModel.tblVipham">
+        <MappingFragment StoreEntitySet="tblVipham">
+          <ScalarProperty Name="MaVP" ColumnName="MaVP" />
+          <ScalarProperty Name="TenVP" ColumnName="TenVP" />
+          <ScalarProperty Name="Tienphat" ColumnName="Tienphat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

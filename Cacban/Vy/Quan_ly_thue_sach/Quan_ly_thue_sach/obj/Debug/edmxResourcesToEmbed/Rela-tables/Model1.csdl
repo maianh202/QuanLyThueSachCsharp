@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_ThueSachModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblCalam">
+    <Key>
+      <PropertyRef Name="Maca" />
+    </Key>
+    <Property Name="Maca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblNV" Relationship="Self.FK__tblNV__Maca__37A5467C" FromRole="tblCalam" ToRole="tblNV" />
+  </EntityType>
+  <EntityType Name="tblCTHDThue">
+    <Key>
+      <PropertyRef Name="Mathue" />
+      <PropertyRef Name="Masach" />
+    </Key>
+    <Property Name="Mathue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Masach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaTT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Datra" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblCTHDTh__Masac__5629CD9C" FromRole="tblCTHDThue" ToRole="tblSach" />
+    <NavigationProperty Name="tblHDThue" Relationship="Self.FK__tblCTHDTh__Mathu__5535A963" FromRole="tblCTHDThue" ToRole="tblHDThue" />
+    <NavigationProperty Name="tblTinhtrang" Relationship="Self.FK__tblCTHDThu__MaTT__571DF1D5" FromRole="tblCTHDThue" ToRole="tblTinhtrang" />
+  </EntityType>
+  <EntityType Name="tblCTHDTra">
+    <Key>
+      <PropertyRef Name="Matra" />
+      <PropertyRef Name="Masach" />
+    </Key>
+    <Property Name="Matra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Masach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaVP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Thanhtien" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblCTHDTr__Masac__5AEE82B9" FromRole="tblCTHDTra" ToRole="tblSach" />
+    <NavigationProperty Name="tblHDTra" Relationship="Self.FK__tblCTHDTr__Matra__59FA5E80" FromRole="tblCTHDTra" ToRole="tblHDTra" />
+    <NavigationProperty Name="tblVipham" Relationship="Self.FK__tblCTHDTra__MaVP__5BE2A6F2" FromRole="tblCTHDTra" ToRole="tblVipham" />
+  </EntityType>
+  <EntityType Name="tblHDThue">
+    <Key>
+      <PropertyRef Name="Mathue" />
+    </Key>
+    <Property Name="Mathue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Makhach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaythue" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Tiendatcoc" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblCTHDThue" Relationship="Self.FK__tblCTHDTh__Mathu__5535A963" FromRole="tblHDThue" ToRole="tblCTHDThue" />
+    <NavigationProperty Name="tblKhach" Relationship="Self.FK__tblHDThue__Makha__49C3F6B7" FromRole="tblHDThue" ToRole="tblKhach" />
+    <NavigationProperty Name="tblNV" Relationship="Self.FK__tblHDThue__MaNV__4AB81AF0" FromRole="tblHDThue" ToRole="tblNV" />
+    <NavigationProperty Name="tblHDTra" Relationship="Self.FK__tblHDTra__Mathue__4D94879B" FromRole="tblHDThue" ToRole="tblHDTra" />
+  </EntityType>
+  <EntityType Name="tblHDTra">
+    <Key>
+      <PropertyRef Name="Matra" />
+    </Key>
+    <Property Name="Matra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mathue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaytra" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblCTHDTra" Relationship="Self.FK__tblCTHDTr__Matra__59FA5E80" FromRole="tblHDTra" ToRole="tblCTHDTra" />
+    <NavigationProperty Name="tblHDThue" Relationship="Self.FK__tblHDTra__Mathue__4D94879B" FromRole="tblHDTra" ToRole="tblHDThue" />
+    <NavigationProperty Name="tblNV" Relationship="Self.FK__tblHDTra__MaNV__4E88ABD4" FromRole="tblHDTra" ToRole="tblNV" />
+  </EntityType>
+  <EntityType Name="tblKhach">
+    <Key>
+      <PropertyRef Name="Makhach" />
+    </Key>
+    <Property Name="Makhach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenkhach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Gioitinh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblHDThue" Relationship="Self.FK__tblHDThue__Makha__49C3F6B7" FromRole="tblKhach" ToRole="tblHDThue" />
+  </EntityType>
+  <EntityType Name="tblLinhvuc">
+    <Key>
+      <PropertyRef Name="Malinhvuc" />
+    </Key>
+    <Property Name="Malinhvuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenlinhvuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblSach__Malinhv__2E1BDC42" FromRole="tblLinhvuc" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblLoaisach">
+    <Key>
+      <PropertyRef Name="Maloai" />
+    </Key>
+    <Property Name="Maloai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenloai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblSach__Maloai__2D27B809" FromRole="tblLoaisach" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblNV">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Maca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Namsinh" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Gioitinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dienthoai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Luong" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblCalam" Relationship="Self.FK__tblNV__Maca__37A5467C" FromRole="tblNV" ToRole="tblCalam" />
+    <NavigationProperty Name="tblHDThue" Relationship="Self.FK__tblHDThue__MaNV__4AB81AF0" FromRole="tblNV" ToRole="tblHDThue" />
+    <NavigationProperty Name="tblHDTra" Relationship="Self.FK__tblHDTra__MaNV__4E88ABD4" FromRole="tblNV" ToRole="tblHDTra" />
+  </EntityType>
+  <EntityType Name="tblNXB">
+    <Key>
+      <PropertyRef Name="MaNXB" />
+    </Key>
+    <Property Name="MaNXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenNXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Dienthoai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblSach__MaNXB__300424B4" FromRole="tblNXB" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblNgonngu">
+    <Key>
+      <PropertyRef Name="Mangonngu" />
+    </Key>
+    <Property Name="Mangonngu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenngonngu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblSach__Mangonn__30F848ED" FromRole="tblNgonngu" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblSach">
+    <Key>
+      <PropertyRef Name="Masach" />
+    </Key>
+    <Property Name="Masach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tensach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Maloai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Malinhvuc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Matacgia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaNXB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mangonngu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sotrang" Type="Double" Nullable="false" />
+    <Property Name="Giasach" Type="Double" Nullable="false" />
+    <Property Name="Dongiathue" Type="Double" Nullable="false" />
+    <Property Name="Soluong" Type="Double" Nullable="false" />
+    <Property Name="Anh" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ghichu" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblCTHDThue" Relationship="Self.FK__tblCTHDTh__Masac__5629CD9C" FromRole="tblSach" ToRole="tblCTHDThue" />
+    <NavigationProperty Name="tblCTHDTra" Relationship="Self.FK__tblCTHDTr__Masac__5AEE82B9" FromRole="tblSach" ToRole="tblCTHDTra" />
+    <NavigationProperty Name="tblLinhvuc" Relationship="Self.FK__tblSach__Malinhv__2E1BDC42" FromRole="tblSach" ToRole="tblLinhvuc" />
+    <NavigationProperty Name="tblLoaisach" Relationship="Self.FK__tblSach__Maloai__2D27B809" FromRole="tblSach" ToRole="tblLoaisach" />
+    <NavigationProperty Name="tblNXB" Relationship="Self.FK__tblSach__MaNXB__300424B4" FromRole="tblSach" ToRole="tblNXB" />
+    <NavigationProperty Name="tblNgonngu" Relationship="Self.FK__tblSach__Mangonn__30F848ED" FromRole="tblSach" ToRole="tblNgonngu" />
+    <NavigationProperty Name="tblTacgia" Relationship="Self.FK__tblSach__Matacgi__2F10007B" FromRole="tblSach" ToRole="tblTacgia" />
+  </EntityType>
+  <EntityType Name="tblTacgia">
+    <Key>
+      <PropertyRef Name="Matacgia" />
+    </Key>
+    <Property Name="Matacgia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tentacgia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Gioitinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Diachi" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK__tblSach__Matacgi__2F10007B" FromRole="tblTacgia" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblTinhtrang">
+    <Key>
+      <PropertyRef Name="MaTT" />
+    </Key>
+    <Property Name="MaTT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenTT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="tblCTHDThue" Relationship="Self.FK__tblCTHDThu__MaTT__571DF1D5" FromRole="tblTinhtrang" ToRole="tblCTHDThue" />
+  </EntityType>
+  <EntityType Name="tblVipham">
+    <Key>
+      <PropertyRef Name="MaVP" />
+    </Key>
+    <Property Name="MaVP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenVP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tienphat" Type="Double" Nullable="false" />
+    <NavigationProperty Name="tblCTHDTra" Relationship="Self.FK__tblCTHDTra__MaVP__5BE2A6F2" FromRole="tblVipham" ToRole="tblCTHDTra" />
+  </EntityType>
+  <Association Name="FK__tblNV__Maca__37A5467C">
+    <End Role="tblCalam" Type="Self.tblCalam" Multiplicity="1" />
+    <End Role="tblNV" Type="Self.tblNV" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCalam">
+        <PropertyRef Name="Maca" />
+      </Principal>
+      <Dependent Role="tblNV">
+        <PropertyRef Name="Maca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDTh__Masac__5629CD9C">
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="1" />
+    <End Role="tblCTHDThue" Type="Self.tblCTHDThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSach">
+        <PropertyRef Name="Masach" />
+      </Principal>
+      <Dependent Role="tblCTHDThue">
+        <PropertyRef Name="Masach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDTh__Mathu__5535A963">
+    <End Role="tblHDThue" Type="Self.tblHDThue" Multiplicity="1" />
+    <End Role="tblCTHDThue" Type="Self.tblCTHDThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHDThue">
+        <PropertyRef Name="Mathue" />
+      </Principal>
+      <Dependent Role="tblCTHDThue">
+        <PropertyRef Name="Mathue" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDThu__MaTT__571DF1D5">
+    <End Role="tblTinhtrang" Type="Self.tblTinhtrang" Multiplicity="1" />
+    <End Role="tblCTHDThue" Type="Self.tblCTHDThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTinhtrang">
+        <PropertyRef Name="MaTT" />
+      </Principal>
+      <Dependent Role="tblCTHDThue">
+        <PropertyRef Name="MaTT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDTr__Masac__5AEE82B9">
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="1" />
+    <End Role="tblCTHDTra" Type="Self.tblCTHDTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSach">
+        <PropertyRef Name="Masach" />
+      </Principal>
+      <Dependent Role="tblCTHDTra">
+        <PropertyRef Name="Masach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDTr__Matra__59FA5E80">
+    <End Role="tblHDTra" Type="Self.tblHDTra" Multiplicity="1" />
+    <End Role="tblCTHDTra" Type="Self.tblCTHDTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHDTra">
+        <PropertyRef Name="Matra" />
+      </Principal>
+      <Dependent Role="tblCTHDTra">
+        <PropertyRef Name="Matra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCTHDTra__MaVP__5BE2A6F2">
+    <End Role="tblVipham" Type="Self.tblVipham" Multiplicity="1" />
+    <End Role="tblCTHDTra" Type="Self.tblCTHDTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblVipham">
+        <PropertyRef Name="MaVP" />
+      </Principal>
+      <Dependent Role="tblCTHDTra">
+        <PropertyRef Name="MaVP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDThue__Makha__49C3F6B7">
+    <End Role="tblKhach" Type="Self.tblKhach" Multiplicity="1" />
+    <End Role="tblHDThue" Type="Self.tblHDThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKhach">
+        <PropertyRef Name="Makhach" />
+      </Principal>
+      <Dependent Role="tblHDThue">
+        <PropertyRef Name="Makhach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDThue__MaNV__4AB81AF0">
+    <End Role="tblNV" Type="Self.tblNV" Multiplicity="1" />
+    <End Role="tblHDThue" Type="Self.tblHDThue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNV">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="tblHDThue">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDTra__Mathue__4D94879B">
+    <End Role="tblHDThue" Type="Self.tblHDThue" Multiplicity="1" />
+    <End Role="tblHDTra" Type="Self.tblHDTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblHDThue">
+        <PropertyRef Name="Mathue" />
+      </Principal>
+      <Dependent Role="tblHDTra">
+        <PropertyRef Name="Mathue" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblHDTra__MaNV__4E88ABD4">
+    <End Role="tblNV" Type="Self.tblNV" Multiplicity="1" />
+    <End Role="tblHDTra" Type="Self.tblHDTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNV">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="tblHDTra">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblSach__Malinhv__2E1BDC42">
+    <End Role="tblLinhvuc" Type="Self.tblLinhvuc" Multiplicity="1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLinhvuc">
+        <PropertyRef Name="Malinhvuc" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="Malinhvuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblSach__Maloai__2D27B809">
+    <End Role="tblLoaisach" Type="Self.tblLoaisach" Multiplicity="1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLoaisach">
+        <PropertyRef Name="Maloai" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="Maloai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblSach__MaNXB__300424B4">
+    <End Role="tblNXB" Type="Self.tblNXB" Multiplicity="1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNXB">
+        <PropertyRef Name="MaNXB" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MaNXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblSach__Mangonn__30F848ED">
+    <End Role="tblNgonngu" Type="Self.tblNgonngu" Multiplicity="1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNgonngu">
+        <PropertyRef Name="Mangonngu" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="Mangonngu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblSach__Matacgi__2F10007B">
+    <End Role="tblTacgia" Type="Self.tblTacgia" Multiplicity="1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTacgia">
+        <PropertyRef Name="Matacgia" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="Matacgia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QL_ThueSachEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblCalam" EntityType="Self.tblCalam" />
+    <EntitySet Name="tblCTHDThue" EntityType="Self.tblCTHDThue" />
+    <EntitySet Name="tblCTHDTra" EntityType="Self.tblCTHDTra" />
+    <EntitySet Name="tblHDThue" EntityType="Self.tblHDThue" />
+    <EntitySet Name="tblHDTra" EntityType="Self.tblHDTra" />
+    <EntitySet Name="tblKhach" EntityType="Self.tblKhach" />
+    <EntitySet Name="tblLinhvuc" EntityType="Self.tblLinhvuc" />
+    <EntitySet Name="tblLoaisach" EntityType="Self.tblLoaisach" />
+    <EntitySet Name="tblNV" EntityType="Self.tblNV" />
+    <EntitySet Name="tblNXB" EntityType="Self.tblNXB" />
+    <EntitySet Name="tblNgonngu" EntityType="Self.tblNgonngu" />
+    <EntitySet Name="tblSach" EntityType="Self.tblSach" />
+    <EntitySet Name="tblTacgia" EntityType="Self.tblTacgia" />
+    <EntitySet Name="tblTinhtrang" EntityType="Self.tblTinhtrang" />
+    <EntitySet Name="tblVipham" EntityType="Self.tblVipham" />
+    <AssociationSet Name="FK__tblNV__Maca__37A5467C" Association="Self.FK__tblNV__Maca__37A5467C">
+      <End Role="tblCalam" EntitySet="tblCalam" />
+      <End Role="tblNV" EntitySet="tblNV" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDTh__Masac__5629CD9C" Association="Self.FK__tblCTHDTh__Masac__5629CD9C">
+      <End Role="tblSach" EntitySet="tblSach" />
+      <End Role="tblCTHDThue" EntitySet="tblCTHDThue" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDTh__Mathu__5535A963" Association="Self.FK__tblCTHDTh__Mathu__5535A963">
+      <End Role="tblHDThue" EntitySet="tblHDThue" />
+      <End Role="tblCTHDThue" EntitySet="tblCTHDThue" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDThu__MaTT__571DF1D5" Association="Self.FK__tblCTHDThu__MaTT__571DF1D5">
+      <End Role="tblTinhtrang" EntitySet="tblTinhtrang" />
+      <End Role="tblCTHDThue" EntitySet="tblCTHDThue" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDTr__Masac__5AEE82B9" Association="Self.FK__tblCTHDTr__Masac__5AEE82B9">
+      <End Role="tblSach" EntitySet="tblSach" />
+      <End Role="tblCTHDTra" EntitySet="tblCTHDTra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDTr__Matra__59FA5E80" Association="Self.FK__tblCTHDTr__Matra__59FA5E80">
+      <End Role="tblHDTra" EntitySet="tblHDTra" />
+      <End Role="tblCTHDTra" EntitySet="tblCTHDTra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCTHDTra__MaVP__5BE2A6F2" Association="Self.FK__tblCTHDTra__MaVP__5BE2A6F2">
+      <End Role="tblVipham" EntitySet="tblVipham" />
+      <End Role="tblCTHDTra" EntitySet="tblCTHDTra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDThue__Makha__49C3F6B7" Association="Self.FK__tblHDThue__Makha__49C3F6B7">
+      <End Role="tblKhach" EntitySet="tblKhach" />
+      <End Role="tblHDThue" EntitySet="tblHDThue" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDThue__MaNV__4AB81AF0" Association="Self.FK__tblHDThue__MaNV__4AB81AF0">
+      <End Role="tblNV" EntitySet="tblNV" />
+      <End Role="tblHDThue" EntitySet="tblHDThue" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDTra__Mathue__4D94879B" Association="Self.FK__tblHDTra__Mathue__4D94879B">
+      <End Role="tblHDThue" EntitySet="tblHDThue" />
+      <End Role="tblHDTra" EntitySet="tblHDTra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblHDTra__MaNV__4E88ABD4" Association="Self.FK__tblHDTra__MaNV__4E88ABD4">
+      <End Role="tblNV" EntitySet="tblNV" />
+      <End Role="tblHDTra" EntitySet="tblHDTra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblSach__Malinhv__2E1BDC42" Association="Self.FK__tblSach__Malinhv__2E1BDC42">
+      <End Role="tblLinhvuc" EntitySet="tblLinhvuc" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblSach__Maloai__2D27B809" Association="Self.FK__tblSach__Maloai__2D27B809">
+      <End Role="tblLoaisach" EntitySet="tblLoaisach" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblSach__MaNXB__300424B4" Association="Self.FK__tblSach__MaNXB__300424B4">
+      <End Role="tblNXB" EntitySet="tblNXB" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblSach__Mangonn__30F848ED" Association="Self.FK__tblSach__Mangonn__30F848ED">
+      <End Role="tblNgonngu" EntitySet="tblNgonngu" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblSach__Matacgi__2F10007B" Association="Self.FK__tblSach__Matacgi__2F10007B">
+      <End Role="tblTacgia" EntitySet="tblTacgia" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

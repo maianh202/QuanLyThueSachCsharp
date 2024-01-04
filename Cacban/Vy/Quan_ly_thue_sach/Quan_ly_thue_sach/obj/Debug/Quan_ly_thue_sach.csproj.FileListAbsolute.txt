@@ -1,0 +1,33 @@
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+E:\Lab\GitHub\CSharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe.config
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.dll
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.dll
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.xml
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\bin\Debug\EntityFramework.SqlServer.xml
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.AssemblyReference.cache
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmMain.resources
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmNhanvien.resources
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Properties.Resources.resources
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.GenerateResource.cache
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CoreCompileInputs.cache
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.csproj.CopyComplete
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.exe
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.pdb
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmSachTruyen.resources
+E:\Lab\GitHub\C Sharp-Programming\SQL\Quan_ly_thue_sach\Quan_ly_thue_sach\obj\Debug\Quan_ly_thue_sach.Forms.frmDSchuatra.resources
